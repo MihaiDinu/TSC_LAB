@@ -1,0 +1,133 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/cptma/Desktop/TSC_LAB/lab3/sim
+vinstr_register
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 DXx4 work 18 instr_register_pkg 0 22 Fh]A:5JdmA0^bE<?k[aO<0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+r1
+!s85 0
+31
+!i10b 1
+!s100 ?7jnUDkiR3iLk^7PaS=ja1
+IC8COojL0KjW`_>STfK1hE1
+!s105 instr_register_sv_unit
+S1
+R0
+w1614777442
+8../../lab2/lab_dut/instr_register.sv
+F../../lab2/lab_dut/instr_register.sv
+L0 9
+Z4 OL;L;10.6d;65
+Z5 !s108 1615478678.000000
+Z6 !s107 ../lab02_clocking_blocks/top.sv|../lab02_clocking_blocks/instr_register_test.sv|../lab02_clocking_blocks/tb_ifc.sv|../../lab2/lab_dut/instr_register.sv|../../lab2/lab_dut/instr_register_pkg.sv|
+Z7 !s90 -reportprogress|300|-sv|-timescale|1ps/1ps|-work|work|-f|sources.txt|
+!i113 0
+Z8 o-sv -timescale 1ps/1ps -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 !s92 -sv -timescale 1ps/1ps -work work +incdir+../../lab_dut +incdir+../../lab_dut +incdir+../lab02_clocking_blocks +incdir+../lab02_clocking_blocks +incdir+../lab02_clocking_blocks -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 tCvgOpt 0
+Xinstr_register_pkg
+R1
+VFh]A:5JdmA0^bE<?k[aO<0
+r1
+!s85 0
+31
+!i10b 1
+!s100 YT=bn^^oB9BJ`h54KSKSk1
+IFh]A:5JdmA0^bE<?k[aO<0
+S1
+R0
+w1614777450
+8../../lab2/lab_dut/instr_register_pkg.sv
+F../../lab2/lab_dut/instr_register_pkg.sv
+L0 5
+R4
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vinstr_register_test
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 61YY[a=Hch205ETPDLRej3
+IGXQ<9:2mQRNzehja3J_Bi1
+!s105 instr_register_test_sv_unit
+S1
+R0
+w1615478321
+8../lab02_clocking_blocks/instr_register_test.sv
+F../lab02_clocking_blocks/instr_register_test.sv
+L0 13
+R4
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+Ytb_ifc
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 8nR]?kjUO5E0M>TXlglNC2
+IjCE2SaW8n:[jEkPXFheWb0
+!s105 tb_ifc_sv_unit
+S1
+R0
+w1615478649
+8../lab02_clocking_blocks/tb_ifc.sv
+F../lab02_clocking_blocks/tb_ifc.sv
+Z11 L0 10
+R4
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10
+vtop
+R1
+R2
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 A8GaLRn63a<8kK]6[T5F62
+Ifgm;E^RNYfW;1K0zOnk8_0
+!s105 top_sv_unit
+S1
+R0
+w1470039078
+8../lab02_clocking_blocks/top.sv
+F../lab02_clocking_blocks/top.sv
+R11
+R4
+R5
+R6
+R7
+!i113 0
+R8
+R9
+R10

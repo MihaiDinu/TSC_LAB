@@ -1,0 +1,47 @@
+class transaction
+
+{
+
+	ob_a
+	ob_b
+	opcode
+	wrpt
+	randomize transaction;
+	print transaction
+	
+}endclass
+
+class driver
+
+	Transaction tr;
+	virtual tb_ifc vio;
+	new tb_ifc =new_io;
+	tb_ifc=new_io;
+	endfuntion;
+	generate_tranzaction()
+		repeat (3) begin
+			@(io.cb) randomize transaction
+			
+			io.cb.op_a <= tr.op_a
+			io.cb.op_b <= tr.op_b
+			io.cb.op_code <= tr.op_code
+	drive_tranzacion()
+			33-41 linii cod 	instr_register_test
+		generate_tranzaction(); //call
+				
+
+endclass
+
+class monitor
+{	
+	function read_results()
+			for(i<-0,2)
+				@io.cb<=
+
+
+
+(test  TB)
+initial
+driver dr
+dr=new(io)
+dr.generate_tranzaction

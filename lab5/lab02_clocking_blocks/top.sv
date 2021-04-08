@@ -15,10 +15,10 @@ module top;
 
   // clock variables
   logic clk;
-  logic test_clk;
+ // logic test_clk;
 
  // instantiate the testbench interface
-  tb_ifc io (.clk(test_clk));
+  tb_ifc io (.clk(clk));
 
   // connect interface to testbench
   instr_register_test test (.io(io));
@@ -42,7 +42,7 @@ module top;
     forever #5  clk = ~clk;
   end
 
-  initial begin
+ /* initial begin
     test_clk <=0;
     // offset test_clk edges from clk to prevent races between
     // the testbench and the design
@@ -54,5 +54,5 @@ module top;
       #8ns test_clk = 1'b0;
     end
   end
-
+*/
 endmodule: top

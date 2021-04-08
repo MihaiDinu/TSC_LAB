@@ -1,0 +1,51 @@
+Definim o clasa 
+
+		class transaction
+	op.a
+	op.b
+	opcode
+	write.pointer
+	
+	randomize transaction
+	print transaction
+	
+	end class
+	
+		Class driver
+	transaction tr;
+	virtual tb_ifc vio;
+	new (tb_ifc =new_io)
+	vio=new_io;
+	endfucntion
+	
+		Generate_transaction
+	repeat(3) begin;
+	@(io.cb) randomize_transaction
+	@(io.cb) print_transcation
+	io.cb.op.a <=tr.op.a
+	io.cb.op.b <=tr.op.b
+	io.cb.opcode<=tr.opcode
+end repeat	
+endfucntion	
+endclass
+	
+	
+		test(Tb)
+	initial
+	driver dr
+	dr=new(io)
+	dr.generate_transcation
+	
+		Drive_transcation
+	reset.signals 
+	@(posedge io.cb) io.load_en = 1'b0
+	generate_transcation
+	@(posedge io.cb) io.load_en = 0'b0
+	
+	
+		Class Monitor
+	function read_result
+	for(i<-0,2)
+	
+	
+	

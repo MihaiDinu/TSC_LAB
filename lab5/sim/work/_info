@@ -7,7 +7,7 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/cptma/Desktop/TSC_LAB/lab3/sim
+Z0 dC:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim
 vinstr_register
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
 Z2 DXx4 work 18 instr_register_pkg 0 22 Fh]A:5JdmA0^bE<?k[aO<0
@@ -26,7 +26,7 @@ w1614777442
 F../../lab2/lab_dut/instr_register.sv
 L0 9
 Z4 OL;L;10.6d;65
-Z5 !s108 1615478678.000000
+Z5 !s108 1617892994.000000
 Z6 !s107 ../lab02_clocking_blocks/top.sv|../lab02_clocking_blocks/instr_register_test.sv|../lab02_clocking_blocks/tb_ifc.sv|../../lab2/lab_dut/instr_register.sv|../../lab2/lab_dut/instr_register_pkg.sv|
 Z7 !s90 -reportprogress|300|-sv|-timescale|1ps/1ps|-work|work|-f|sources.txt|
 !i113 0
@@ -64,12 +64,12 @@ r1
 !s85 0
 31
 !i10b 1
-!s100 61YY[a=Hch205ETPDLRej3
-IGXQ<9:2mQRNzehja3J_Bi1
+!s100 >L_:FZHe2fPU7GPfi_7=:1
+IEmP5Zo427Yf93>h3E<l>V0
 !s105 instr_register_test_sv_unit
 S1
 R0
-w1615478321
+w1617892984
 8../lab02_clocking_blocks/instr_register_test.sv
 F../lab02_clocking_blocks/instr_register_test.sv
 L0 13
@@ -89,12 +89,12 @@ r1
 !s85 0
 31
 !i10b 1
-!s100 8nR]?kjUO5E0M>TXlglNC2
-IjCE2SaW8n:[jEkPXFheWb0
+!s100 d6UV[RkV@I;bK?=@feBT[3
+I98z=dmIz:Ho9Pl=La>W910
 !s105 tb_ifc_sv_unit
 S1
 R0
-w1615478649
+w1617285797
 8../lab02_clocking_blocks/tb_ifc.sv
 F../lab02_clocking_blocks/tb_ifc.sv
 Z11 L0 10
@@ -114,12 +114,12 @@ r1
 !s85 0
 31
 !i10b 1
-!s100 A8GaLRn63a<8kK]6[T5F62
-Ifgm;E^RNYfW;1K0zOnk8_0
+!s100 VKh39`[Gbi[;ijXMKkg1L0
+I:7XlT7V602VXUEg?KQ_Fa2
 !s105 top_sv_unit
 S1
 R0
-w1470039078
+w1617285413
 8../lab02_clocking_blocks/top.sv
 F../lab02_clocking_blocks/top.sv
 R11

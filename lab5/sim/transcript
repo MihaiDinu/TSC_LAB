@@ -1,4 +1,8 @@
 # Reading D:/ModelSim2/tcl/vsim/pref.tcl
+# 
+# 
+# 
+# 
 # //  ModelSim SE-64 10.6d Feb 24 2018
 # //
 # //  Copyright 1991-2018 Mentor Graphics Corporation
@@ -15,52 +19,37 @@
 # do run.do
 # 1
 # Model Technology ModelSim SE-64 vlog 10.6d Compiler 2018.02 Feb 24 2018
-# Start time: 17:43:14 on Apr 08,2021
+# Start time: 17:35:32 on Apr 15,2021
 # vlog -reportprogress 300 -sv -timescale 1ps/1ps -work work -f sources.txt 
 # -- Compiling package instr_register_pkg
 # -- Compiling module instr_register
 # -- Importing package instr_register_pkg
 # -- Compiling interface tb_ifc
 # -- Compiling module instr_register_test
-# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(122): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
-# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(148): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(168): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(173): (vlog-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
+# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(181): (vlog-2240) Treating stand-alone use of function 'randomize' as an implicit VOID cast.
+# ** Warning: ../lab02_clocking_blocks/instr_register_test.sv(186): (vlog-2240) Treating stand-alone use of function 'assign_signals' as an implicit VOID cast.
 # -- Compiling module top
 # 
 # Top level modules:
 # 	top
-# End time: 17:43:15 on Apr 08,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 2
+# End time: 17:35:32 on Apr 15,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 4
 # vsim -novopt -quiet -nocoverage "+notimingchecks" "+nowarnTSCALE" -sva top 
-# Start time: 17:43:15 on Apr 08,2021
+# Start time: 17:35:32 on Apr 15,2021
 # ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
 # Refreshing C:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim/work.top
 # Refreshing C:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim/work.instr_register_pkg
 # Refreshing C:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim/work.tb_ifc
 # Refreshing C:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim/work.instr_register_test
 # Refreshing C:/Users/cptma/AppData/Local/Packages/CanonicalGroupLimited.Ubuntu18.04onWindows_79rhkp1fndgsc/LocalState/rootfs/home/dinumihai/TSC_LAB/lab5/sim/work.instr_register
-# 
-# Writing values to register stack...
-# Writing to register location 13: 
-#   opcode = 6 (DIV)
-#   operand_a = -12
-#   operand_b = 7
-# 
-# Writing to register location 11: 
-#   opcode = 4 (SUB)
-#   operand_a = -8
-#   operand_b = 13
-# 
-# Writing to register location 6: 
-#   opcode = 6 (DIV)
-#   operand_a = 14
-#   operand_b = 1
-# 
-# ** Note: $finish    : ../lab02_clocking_blocks/instr_register_test.sv(212)
-#    Time: 75 ns  Iteration: 2  Instance: /top/test
-# 1
-# Break in Module instr_register_test at ../lab02_clocking_blocks/instr_register_test.sv line 212
-# Simulation Breakpoint: 1
-# Break in Module instr_register_test at ../lab02_clocking_blocks/instr_register_test.sv line 212
-# MACRO ./run.do PAUSED at line 45
-# End time: 17:43:44 on Apr 08,2021, Elapsed time: 0:00:29
-# Errors: 0, Warnings: 1
+# ** Fatal: (vsim-8274) ../lab02_clocking_blocks/instr_register_test.sv(89): Virtual interface elem. 'op_a' not found in 'tb_ifc'.
+#    Time: 0 ns  Iteration: 0  Instance: /top/test File: ../lab02_clocking_blocks/instr_register_test.sv
+# FATAL ERROR while loading design
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./run.do PAUSED at line 23
+# End time: 17:36:02 on Apr 15,2021, Elapsed time: 0:00:30
+# Errors: 1, Warnings: 1
